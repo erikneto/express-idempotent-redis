@@ -1,0 +1,53 @@
+{
+  "_from": "express-idempotent-redis",
+  "_id": "express-idempotent-redis@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-04WVDIs0HDcUeBbi9gqkH9HZgLg9KfoHx1XkYd9AQDsWkzob5flllu9zqA8v+hUnXH+rocQ2w33BHqhvJNiztw==",
+  "_location": "/express-idempotent-redis",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "express-idempotent-redis",
+    "name": "express-idempotent-redis",
+    "escapedName": "express-idempotent-redis",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/express-idempotent-redis/-/express-idempotent-redis-0.0.1.tgz",
+  "_shasum": "1adcf1475880455dc4c9e7cb00200bfcb56acff6",
+  "_spec": "express-idempotent-redis",
+  "_where": "/Users/erikandersen/dev/npmPackages/appTestIdempotency",
+  "author": {
+    "name": "Erik Andersen Neto",
+    "url": "https://github.com/erikneto"
+  },
+  "bugs": {
+    "url": "https://github.com/erikneto/express-idempotent-redis/issues"
+  },
+
+  "deprecated": false,
+  "description": "IDempotent worker with Cache in Redis",
+  "homepage": "https://github.com/erikneto/express-idempotent-redis#readme",
+  "keywords": [
+    "idempotent",
+    "express",
+    "redis"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "express-idempotent-redis",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikneto/express-idempotent-redis.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.2"
+}
