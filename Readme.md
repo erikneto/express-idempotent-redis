@@ -1,7 +1,7 @@
 Cache / Idempotent controller for ExpressJs
 
-  [![NPM Version][npm-url]
-  [![NPM Downloads][downloads-url]
+  [![NPM Version]][npm-url]
+  [![NPM Downloads]][downloads-url]
 
 ```js
 const express = require('express')
@@ -48,12 +48,12 @@ $ npm install express-idempotent-redis
 
 ## Guide
 
-  The API caller needs to send a IdEmpotent key on header (Default is 'IDEmpKey')
-  The builder accepts the following parameters:
-    redisClient => Mandatory. This will be your already initiated Redis Client
-    idempotencyKey => The key that will be monitored (Default is 'IDEmpKey')
-    sleepTime => As your route will only be executed once, this is how long subsequent calls should wait for the main (first) request to finish (in miliseconds)
-    secondsToCache => How long the request should be cached
+  * The API caller needs to send a IdEmpotent key on header (Default is 'IDEmpKey')
+  * The builder accepts the following parameters:
+    - redisClient => Mandatory. This will be your already initiated Redis Client
+    - idempotencyKey => The key that will be monitored (Default is 'IDEmpKey')
+    - sleepTime => As your route will only be executed once, this is how long subsequent calls should wait for the main (first) request to finish (in miliseconds)
+    - secondsToCache => How long the request should be cached
 
 
 [npm-url]: https://www.npmjs.com/package/express-idempotent-redis
