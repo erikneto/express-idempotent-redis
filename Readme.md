@@ -1,8 +1,8 @@
 Cache / Idempotent controller for ExpressJs
 
-  [![NPM Version]][npm-url]
-  [![NPM Downloads]][downloads-url]
-
+  [![NPM Version][npm-image]][npm-url]
+  [![NPM Downloads][downloads-image]][downloads-url]
+  
 ```js
 const express = require('express')
 const app = express() 
