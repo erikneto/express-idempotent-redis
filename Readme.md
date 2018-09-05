@@ -52,6 +52,7 @@ $ npm install express-idempotent-redis
     - sleepTime => As your route will only be executed once, this is how long subsequent calls should wait for the main (first) request to finish (in miliseconds)
     - secondsToCache => How long the request should be cached
 
-
+## Important
+  The middleware parses all results. If you want to receive a non parsed JSON string. You should add avoidParse: True to the header
 [npm-url]: https://www.npmjs.com/package/express-idempotent-redis
 [downloads-url]: https://npmjs.org/package/express-idempotent-redis
