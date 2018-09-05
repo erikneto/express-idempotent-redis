@@ -45,8 +45,13 @@ const processRequest = async (req, res, next) => {
             })
         await sleep(sleepTime);
     }
-    if(!cachedRequest){
+    if (!cachedRequest) {
         return res.status(500).send();
+    }
+    try {
+        cachedRequest.body = JSON.parse(cachedRequest.body);
+    } catch (error) {
+
     }
     res.status(cachedRequest.statusCode);
     res.set(cachedRequest.headers);
