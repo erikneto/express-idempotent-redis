@@ -9,7 +9,7 @@ const processRequest = async (req, res, next) => {
     if (!reqIDEmpKey) {
         return next();
     }
-    const avoidParse = req.get(avoidParse)
+    const avoidParse = req.get('avoidParse')
     let cachedRequest = await getCachedRequest(reqIDEmpKey)
         .catch((error) => {
             throw error
